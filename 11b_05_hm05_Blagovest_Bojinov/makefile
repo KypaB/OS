@@ -1,5 +1,5 @@
-shell: shell2.c
-	gcc shell2.c -o shell2
+shell: shell.c
+	gcc shell.c -o shell
 
 clean:
-	rm -f *.o *~ shell2
+	rm -f *.o *~ shell
